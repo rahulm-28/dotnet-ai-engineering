@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pjhmr8gRsOM0GpqmzKd3Kj7DOpkbzRxSMgTlIOphW3U=",
+  "Source": "WebSummarizer.Api",
+  "BasePath": "_content/WebSummarizer.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
