@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebSummarizer.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecd3a9c2d88cd0cc6a4bae8d2746ed46420ed9c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f10481b94e1bd96fe3a8ccfffbb5828baf850572")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebSummarizer.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebSummarizer.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

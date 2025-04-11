@@ -32,3 +32,4 @@
 /Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/obj/Debug/net8.0/WebSummarizer.Api.pdb
 /Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/obj/Debug/net8.0/WebSummarizer.Api.genruntimeconfig.cache
 /Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/obj/Debug/net8.0/ref/WebSummarizer.Api.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/HtmlAgilityPack.dll

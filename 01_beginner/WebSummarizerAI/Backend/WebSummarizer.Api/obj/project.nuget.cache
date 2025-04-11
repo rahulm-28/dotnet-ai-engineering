@@ -1,16 +1,35 @@
 {
   "version": 2,
-  "dgSpecHash": "u6+oVtStY2o=",
+  "dgSpecHash": "B5M3OcFHUVY=",
   "success": true,
   "projectFilePath": "/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/WebSummarizer.Api.csproj",
   "expectedPackageFiles": [
+    "/Users/rahulmittal/.nuget/packages/azure.ai.openai/2.1.0/azure.ai.openai.2.1.0.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/azure.core/1.44.1/azure.core.1.44.1.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/azure.identity/1.13.2/azure.identity.1.13.2.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/htmlagilitypack/1.12.0/htmlagilitypack.1.12.0.nupkg.sha512",
     "/Users/rahulmittal/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/rahulmittal/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/microsoft.identity.client/4.67.2/microsoft.identity.client.4.67.2.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/microsoft.identity.client.extensions.msal/4.67.2/microsoft.identity.client.extensions.msal.4.67.2.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/microsoft.identitymodel.abstractions/6.35.0/microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
     "/Users/rahulmittal/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/openai/2.1.0/openai.2.1.0.nupkg.sha512",
     "/Users/rahulmittal/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/rahulmittal/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/rahulmittal/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "/Users/rahulmittal/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "/Users/rahulmittal/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/system.clientmodel/1.2.1/system.clientmodel.1.2.1.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/system.memory.data/6.0.0/system.memory.data.6.0.0.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/system.security.cryptography.protecteddata/4.5.0/system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/system.text.json/6.0.10/system.text.json.6.0.10.nupkg.sha512",
+    "/Users/rahulmittal/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }
