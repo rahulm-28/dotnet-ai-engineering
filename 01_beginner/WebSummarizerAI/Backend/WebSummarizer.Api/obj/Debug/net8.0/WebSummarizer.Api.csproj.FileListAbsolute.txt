@@ -33,3 +33,15 @@
 /Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/obj/Debug/net8.0/WebSummarizer.Api.genruntimeconfig.cache
 /Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/obj/Debug/net8.0/ref/WebSummarizer.Api.dll
 /Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/HtmlAgilityPack.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/Azure.AI.OpenAI.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/Azure.Core.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/Azure.Identity.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/OpenAI.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/System.ClientModel.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/System.Memory.Data.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/rahulmittal/Main/RnD/AI/dotnet-ai-engineering/dotnet-ai-engineering/01_beginner/WebSummarizerAI/Backend/WebSummarizer.Api/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll

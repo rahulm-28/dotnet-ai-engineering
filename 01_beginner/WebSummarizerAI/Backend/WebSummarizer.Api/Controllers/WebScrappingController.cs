@@ -24,9 +24,20 @@ namespace WebSummarizer.Api.Controllers
         "(KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36");
         }
 
+        [HttpGet("webscrape")]
+        public async Task<IActionResult> HandleIncomingRequests([FromQuery] string url)
+        {
+            if (string.IsNullOrWhiteSpace(url))
+                return BadRequest("Please provide a valid URL to scrape.");
+
+            var content = await ScrapeWeb(url);
+            Console.WriteLine("SCRAPED CONTENT:");
+            Console.WriteLine(content);
+            return await ConnectToAzureOpenAI(content);
+        }
 
 
-        private async Task<IActionResult> ConnectToAzureOpenAI()
+        private async Task<IActionResult> ConnectToAzureOpenAI(string content)
         {
             var endpoint = _configuration["AZURE_OPENAI_ENDPOINT"];
             if (string.IsNullOrEmpty(endpoint))
@@ -48,10 +59,13 @@ namespace WebSummarizer.Api.Controllers
             AzureOpenAIClient azureClient = new(new Uri(endpoint), credential);
 
             // Initialize the ChatClient with the specified deployment name
-            ChatClient chatClient = azureClient.GetChatClient("gpt-4o-mini");
+            ChatClient chatClient = azureClient.GetChatClient("gpt-4o-mini (version:2024-07-18)");
 
             var messages = new List<ChatMessage>
             {
+                new SystemChatMessage("You are an AI assistant that summarizes webpages. Extract the key points and present them in a concise, easy-to-read summary."),
+
+                new UserChatMessage($"Summarize the following webpage content:\n\n{content}")
 
             };
 
@@ -87,28 +101,36 @@ namespace WebSummarizer.Api.Controllers
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
+            return Ok();
         }
 
-        private async Task<IActionResult> ScrapeWeb()
+        private async Task<string> ScrapeWeb(string urli)
         {
-            var url = "https://en.wikipedia.org/wiki/Polystichum_setiferum";
-            var response = await _httpClient.GetAsync(url);
-            if (!response.IsSuccessStatusCode)
+            try
             {
-                return StatusCode((int)response.StatusCode, "Website blocked for scraping.");
+                var response = await _httpClient.GetAsync(urli);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    return "Website blocked for scraping.";
+                }
+
+                var html = await response.Content.ReadAsStringAsync();
+
+                var htmlDoc = new HtmlDocument();
+                htmlDoc.LoadHtml(html);
+
+                var bodyNode = htmlDoc.DocumentNode.SelectSingleNode("//body");
+                var plainText = bodyNode?.InnerText ?? "No visible content found.";
+
+                plainText = System.Text.RegularExpressions.Regex.Replace(plainText, @"\s+", " ").Trim();
+
+                return plainText;
             }
-
-            var html = await response.Content.ReadAsStringAsync();
-
-            var htmlDoc = new HtmlDocument();
-            htmlDoc.LoadHtml(html);
-
-            var bodyNode = htmlDoc.DocumentNode.SelectSingleNode("//body");
-            var plainText = bodyNode?.InnerText ?? "No visible content found.";
-
-            plainText = System.Text.RegularExpressions.Regex.Replace(plainText, @"\s+", " ").Trim();
-
-            return Ok(plainText);
+            catch (Exception ex)
+            {
+                return $"An error occurred while scraping: {ex.Message}";
+            }
         }
     }
 }
